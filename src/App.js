@@ -1,9 +1,12 @@
 import "./App.css";
+import Header from "./components/Header";
+// import Loader from "./components/Loader";
 
 function App() {
   return (
     <div className="App">
-      <h1>FCP</h1>
+      <Header />
+      {/* <Loader /> */}
     </div>
   );
 }
