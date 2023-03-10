@@ -1,11 +1,9 @@
-div.container {
+/* div.container {
   width: 400px;
   height: 350px;
   position: absolute;
   margin: auto;
-  /* left: 0;
-  right: 0;
-  bottom: 0; */
+
   top: 0;
   display: flex;
   align-items: center;
@@ -14,8 +12,8 @@ div.container {
 }
 
 div.roller {
-  width: 100px; /* 300 */
-  height: 30px; /* 90 */
+  width: 100px;
+  height: 30px;
   border: 3px solid #040e35;
   border-radius: 5px;
   position: relative;
@@ -93,6 +91,6 @@ div.paint {
 
 @keyframes paint {
   40% {
-    height: 100px;
+    height: 110px;
   }
-}
+} */
