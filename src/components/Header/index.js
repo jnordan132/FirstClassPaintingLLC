@@ -34,19 +34,32 @@ class Header extends React.Component {
                         duration={500}
                       >
                         <a href="about" class="nav-link active">
-                          About
+                          Services
                         </a>
                       </Link>
                     </li>
-                    <li class="nav-item">
+                    {/* <li class="nav-item">
                       <Link
                         class="category"
                         to="skills"
                         offset={-100}
                         duration={500}
                       >
+                      
                         <a href="skills" class="nav-link active">
-                          Skills
+
+                        </a>
+                      </Link>
+                    </li> */}
+                    <li class="nav-item">
+                      <Link
+                        class="category"
+                        to="experience"
+                        offset={-100}
+                        duration={500}
+                      >
+                        <a href="experience" class="nav-link active">
+                          Our Work
                         </a>
                       </Link>
                     </li>
@@ -58,19 +71,7 @@ class Header extends React.Component {
                         duration={500}
                       >
                         <a href="experience" class="nav-link active">
-                          Experience
-                        </a>
-                      </Link>
-                    </li>
-                    <li class="nav-item">
-                      <Link
-                        class="category"
-                        to="experience"
-                        offset={-100}
-                        duration={500}
-                      >
-                        <a href="experience" class="nav-link active">
-                          Experience
+                          About Us
                         </a>
                       </Link>
                     </li>
