@@ -65,12 +65,12 @@ class Header extends React.Component {
                     <li class="nav-item">
                       <Link
                         class="category"
-                        to="portfolio"
+                        to="experience"
                         offset={-100}
                         duration={500}
                       >
-                        <a href="portfolio" class="nav-link active">
-                          Portfolio
+                        <a href="experience" class="nav-link active">
+                          Experience
                         </a>
                       </Link>
                     </li>
