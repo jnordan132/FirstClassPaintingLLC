@@ -48,6 +48,17 @@ class Services extends React.Component {
               </p>
             </ul>
           </li>
+          <li className="servicesItem">
+            <h3>Ask Us!</h3>
+            <p>
+              We love taking on new projects, big or small. If you have a
+              project in mind that you arent sure who to ask for help from, feel
+              free to ask us! We would love to hear about your project. Chances
+              are we would like to help you out in any way we can! We paint
+              inside and out, as well as have built outdoor structures such as
+              pergolas and decks!
+            </p>
+          </li>
         </ul>
       </section>
     );

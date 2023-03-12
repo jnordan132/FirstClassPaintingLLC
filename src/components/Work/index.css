@@ -1,29 +1,23 @@
-.slider {
-  display: flex;
-  width: 100%;
-  margin: 0;
+.work h1 {
   text-align: center;
-  justify-content: center;
+  margin: 0 0 1em 0;
+  color: rgb(189, 55, 46);
+  font-size: var(--s1);
+  line-height: 1.2;
 }
 
-img {
-  width: 30vw;
-}
-
-.arrow {
-  width: 10%;
-  background-color: rgb(241, 241, 241);
+.gallery {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
+  margin-left: 18rem;
+  margin-right: 18rem;
 }
 
-.arrow:hover {
-  border: 2px solid grey;
-  cursor: pointer;
+.gallery img {
+  width: 24%;
 }
 
-.arrowBtn {
-  color: rgb(246, 3, 3);
-  font-size: 28px;
+.work img {
+  margin: 5px;
 }

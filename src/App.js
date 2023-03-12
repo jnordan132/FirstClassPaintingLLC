@@ -10,8 +10,9 @@ import { SliderData } from "./components/Work/SliderData";
 function App() {
   return (
     <div className="App">
+      <Header />
       <Services />
-      <Work slides={SliderData} />
+      <Work />
       <Footer />
     </div>
   );

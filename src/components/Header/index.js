@@ -29,37 +29,24 @@ class Header extends React.Component {
                     <li class="nav-item">
                       <Link
                         class="category"
-                        to="about"
+                        to="services"
                         offset={-100}
                         duration={500}
                       >
-                        <a href="about" class="nav-link active">
+                        <a href="services" class="nav-link active">
                           Services
                         </a>
                       </Link>
                     </li>
-                    {/* <li class="nav-item">
-                      <Link
-                        class="category"
-                        to="skills"
-                        offset={-100}
-                        duration={500}
-                      >
-                      
-                        <a href="skills" class="nav-link active">
-
-                        </a>
-                      </Link>
-                    </li> */}
                     <li class="nav-item">
                       <Link
                         class="category"
-                        to="experience"
+                        to="work"
                         offset={-100}
                         duration={500}
                       >
-                        <a href="experience" class="nav-link active">
-                          Our Work
+                        <a href="work" class="nav-link active">
+                          Work
                         </a>
                       </Link>
                     </li>
@@ -71,25 +58,16 @@ class Header extends React.Component {
                         duration={500}
                       >
                         <a href="experience" class="nav-link active">
-                          About Us
+                          Contact
                         </a>
                       </Link>
                     </li>
                   </ul>
                 </div>
-                {/* <div>
-                  <h4>Call Us Today!</h4>
-                  <h3>(910) 746-3360</h3>
-                </div> */}
               </div>
             </nav>
           </div>
         </div>
-        {/* <h1>First Class Paint LLC</h1>
-        <div>
-          <h5>Call Us Today!</h5>
-          <h4>(910) 746-3360</h4>
-        </div> */}
       </header>
     );
   }
