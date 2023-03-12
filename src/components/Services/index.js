@@ -1,24 +1,16 @@
 import React from "react";
 import "./index.css";
+import insured from "../../assets/images/insured.jpg";
 
 class Services extends React.Component {
   render() {
     return (
       <section className="services">
         <h2 className="servicesTitle">
-          <span>Our Services</span>
+          <span>Services</span>
         </h2>
         <br />
         <ul className="servicesList">
-          <li className="servicesItem">
-            <h3>6 To be Decided...</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-              reprehenderit optio amet ab temporibus asperiores quasi
-              cupiditate. Voluptatum ducimus voluptates voluptas?
-            </p>
-          </li>
           <li className="servicesItem">
             <h3>Residential</h3>
             <p>
@@ -28,12 +20,11 @@ class Services extends React.Component {
             </p>
           </li>
           <li className="servicesItem">
-            <h3>3 To be Decided...</h3>
+            <h3>Commercial</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-              reprehenderit optio amet ab temporibus asperiores quasi
-              cupiditate. Voluptatum ducimus voluptates voluptas?
+              Do you own or operate a business and want to renovate your work
+              environment? We offer a variety of commercial services including
+              interior and exterior painting.
             </p>
           </li>
           <li className="servicesItem whyUs">
@@ -56,23 +47,6 @@ class Services extends React.Component {
                 <li>We ensure that the end result is exactly what is wanted</li>
               </p>
             </ul>
-          </li>
-          <li className="servicesItem">
-            <h3>5 To be Decided...</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
-              non quis exercitationem culpa nesciunt nihil aut nostrum explicabo
-              reprehenderit optio amet ab temporibus asperiores quasi
-              cupiditate. Voluptatum ducimus voluptates voluptas?
-            </p>
-          </li>
-          <li className="servicesItem">
-            <h3>Commercial</h3>
-            <p>
-              Do you own or operate a business and want to renovate your work
-              environment? We offer a variety of commercial services including
-              interior and exterior painting.
-            </p>
           </li>
         </ul>
       </section>

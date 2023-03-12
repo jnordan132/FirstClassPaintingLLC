@@ -27,6 +27,10 @@
   padding: 20px 0 10px 0;
 }
 
+.footer .copyright {
+  margin-top: 15%;
+}
+
 @media (max-width: 992px) {
   .footer {
     display: block;
