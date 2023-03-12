@@ -1,0 +1,40 @@
+.footer section {
+  width: 33%;
+}
+
+.footer {
+  color: white;
+  text-align: center;
+  background: rgb(189, 55, 46);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em 15px 5em;
+}
+
+.footer a {
+  color: rgb(235, 235, 235);
+}
+
+.footer a:hover {
+  color: white;
+}
+
+.footer ul {
+  padding: 0;
+}
+
+.footer h1 {
+  padding: 20px 0 10px 0;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    display: block;
+  }
+  .footer section {
+    width: 100%;
+  }
+  .footer .contact {
+    display: none;
+  }
+}

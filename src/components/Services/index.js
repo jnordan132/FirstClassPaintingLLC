@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-// import Loader from "../Loader";
 
 class Services extends React.Component {
   render() {
