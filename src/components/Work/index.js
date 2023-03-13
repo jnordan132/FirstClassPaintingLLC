@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { SliderData } from "./SliderData";
-import { FaAngleDoubleRight, FaAngleDoubleLeft } from "react-icons/fa";
 import "./index.css";
 
 import beforeSide from "../../assets/images/BeforeSide.jpg";
@@ -15,7 +13,7 @@ import deck from "../../assets/images/Deck.jpg";
 const Work = () => {
   return (
     <div className="work">
-      <h1>Some of Our Work!</h1>
+      <h1>Our Work!</h1>
       <div className="gallery">
         <img src={beforeSide} alt="before kitchen cabinets"></img>
         <img src={afterSide} alt="after kitchen cabinets"></img>

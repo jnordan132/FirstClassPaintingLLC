@@ -5,7 +5,6 @@ import Work from "./components/Work";
 import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import Contact from "./components/Contact";
-import { SliderData } from "./components/Work/SliderData";
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       <Header />
       <Services />
       <Work />
+      <Contact />
       <Footer />
     </div>
   );

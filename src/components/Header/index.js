@@ -53,11 +53,11 @@ class Header extends React.Component {
                     <li class="nav-item">
                       <Link
                         class="category"
-                        to="experience"
+                        to="contact"
                         offset={-100}
                         duration={500}
                       >
-                        <a href="experience" class="nav-link active">
+                        <a href="contact" class="nav-link active">
                           Contact
                         </a>
                       </Link>
