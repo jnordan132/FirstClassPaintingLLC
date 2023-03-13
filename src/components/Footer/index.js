@@ -6,7 +6,7 @@ class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
-        <section className="contact">
+        <section className="resources">
           <h1>Resources</h1>
           <ul>
             <ul class="footerList">
