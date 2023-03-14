@@ -12,7 +12,7 @@ import deck from "../../assets/images/Deck.jpg";
 
 const Work = () => {
   return (
-    <div className="work">
+    <section className="work">
       <h1>Some of Our Work!</h1>
       <div className="gallery">
         <div className="group">
@@ -28,7 +28,7 @@ const Work = () => {
           <img src={deck} alt="freshly stained deck"></img>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

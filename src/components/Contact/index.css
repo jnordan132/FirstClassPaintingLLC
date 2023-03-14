@@ -4,7 +4,11 @@
   box-sizing: border-box;
 }
 
-.contact h1 {
+.contactSection {
+  margin: 5em 0 5em 0;
+}
+
+.contactSection h1 {
   text-align: center;
   color: rgb(189, 55, 46);
   font-size: var(--s1);
@@ -37,6 +41,8 @@
   width: 25vw;
   overflow: hidden;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 
 .right {
@@ -101,13 +107,75 @@ h4 {
   margin-bottom: 5px;
 }
 
-@media screen and (max-width: 1000px) {
-  .contactForm {
-    display: block;
+textarea {
+  resize: none;
+}
+
+@media (max-width: 1110px) {
+  .left {
+    width: 40vw;
+  }
+  .right {
+    width: 35vw;
   }
 }
 
-@media screen and (max-width: 350px) {
+@media (max-width: 1000px) {
+  .contactForm {
+    display: block;
+  }
+  .left {
+    width: 50vw;
+    margin: 0 auto 2em auto;
+  }
+  .right {
+    margin: 0 auto 0 auto;
+    text-align: center;
+  }
+  .right form {
+    width: 35vw;
+  }
+}
+
+@media (max-width: 820px) {
+  .left {
+    width: 75vw;
+  }
+  .right .form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+  }
+  .right {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .right .form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .left {
+    width: 90vw;
+  }
+  .right .form-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw;
+  }
+  .right {
+    width: 100%;
+    margin-left: auto;
+  }
+
+  .right .form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 350px) {
   .container {
     overflow: hidden;
   }
