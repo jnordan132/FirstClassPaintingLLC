@@ -138,3 +138,11 @@ ul {
   color: rgb(189, 55, 46);
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
+@media (max-width: 650px) {
+  .navbar {
+    font-size: 23px;
+    margin-left: 0.15em;
+    margin-right: 0.15em;
+  }
+}
