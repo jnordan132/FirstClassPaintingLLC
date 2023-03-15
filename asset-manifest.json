@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FirstClassPaintingLLC/static/css/main.e912b869.css",
-    "main.js": "/FirstClassPaintingLLC/static/js/main.1e0def7f.js",
+    "main.css": "/FirstClassPaintingLLC/static/css/main.f89c94f5.css",
+    "main.js": "/FirstClassPaintingLLC/static/js/main.65190211.js",
     "static/js/787.2c2cbe46.chunk.js": "/FirstClassPaintingLLC/static/js/787.2c2cbe46.chunk.js",
     "static/media/ExteriorRes.jpg": "/FirstClassPaintingLLC/static/media/ExteriorRes.a08b67e41dfebac47369.jpg",
     "static/media/Pergola.jpg": "/FirstClassPaintingLLC/static/media/Pergola.6e837ee65be819d1654c.jpg",
@@ -14,12 +14,12 @@
     "static/media/Deck.jpg": "/FirstClassPaintingLLC/static/media/Deck.0dd3c7db877419fe1616.jpg",
     "static/media/LogoImg.png": "/FirstClassPaintingLLC/static/media/LogoImg.6e34cf9ba190f15e53ab.png",
     "index.html": "/FirstClassPaintingLLC/index.html",
-    "main.e912b869.css.map": "/FirstClassPaintingLLC/static/css/main.e912b869.css.map",
-    "main.1e0def7f.js.map": "/FirstClassPaintingLLC/static/js/main.1e0def7f.js.map",
+    "main.f89c94f5.css.map": "/FirstClassPaintingLLC/static/css/main.f89c94f5.css.map",
+    "main.65190211.js.map": "/FirstClassPaintingLLC/static/js/main.65190211.js.map",
     "787.2c2cbe46.chunk.js.map": "/FirstClassPaintingLLC/static/js/787.2c2cbe46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e912b869.css",
-    "static/js/main.1e0def7f.js"
+    "static/css/main.f89c94f5.css",
+    "static/js/main.65190211.js"
   ]
 }
