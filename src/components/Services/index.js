@@ -14,17 +14,19 @@ class Services extends React.Component {
           <li className="servicesItem">
             <h3>Residential</h3>
             <p>
-              If you, or someone you know wants to tackle a project with some
-              help from us, We offer a variety of residential services,
-              including but not limited to interior and exterior painting.
+              Do you or someone you know want to tackle a project with some
+              help? We offer a variety of residential services, including but
+              not limited to interior and exterior painting. Please fill in the
+              contact details below.
             </p>
           </li>
           <li className="servicesItem">
             <h3>Commercial</h3>
             <p>
               Do you own or operate a business and want to renovate your work
-              environment? We offer a variety of commercial services including
-              interior and exterior painting.
+              environment? We offer a variety of commercial services, including
+              but not limited to interior and exterior painting. Please fill in
+              the contact details below.
             </p>
           </li>
           <li className="servicesItem whyUs">
@@ -44,7 +46,7 @@ class Services extends React.Component {
                   We Accept most forms of payment - Cash/Debit/Credit/Online
                   Transfer
                 </li>
-                <li>We ensure that the end result is exactly what is wanted</li>
+                <li>We ensure that the end result is exactly as agreed</li>
               </p>
             </ul>
           </li>
@@ -52,11 +54,10 @@ class Services extends React.Component {
             <h3>Ask Us!</h3>
             <p>
               We love taking on new projects, big or small. If you have a
-              project in mind that you arent sure who to ask for help from, feel
-              free to ask us! We would love to hear about your project. Chances
-              are we would like to help you out in any way we can! We paint
-              inside and out, as well as have built outdoor structures such as
-              pergolas and decks!
+              project in mind and need help, ask us! We would love to hear about
+              your project and help you out in any way we can! We paint inside
+              and out, and have built outdoor structures such as pergolas and
+              decks!
             </p>
           </li>
         </ul>
