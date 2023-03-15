@@ -20,13 +20,23 @@ class Contact extends React.Component {
             <h2>Contact Us</h2>
             <div class="contact">
               <div class="form-container">
-                <form class="form">
+                <form
+                  class="form"
+                  action="https://formspree.io/f/mnqyzwjl"
+                  method="POST"
+                >
                   <div class="username">
-                    <input type="text" placeholder="Enter your Name" />
+                    <input
+                      type="text"
+                      name="Name"
+                      placeholder="Enter your Name"
+                      required
+                    />
                   </div>
                   <div class="useremail">
                     <input
                       type="email"
+                      name="Email"
                       placeholder="Enter your email"
                       required
                     />
@@ -34,6 +44,7 @@ class Contact extends React.Component {
                   <div class="usermessage">
                     <textarea
                       placeholder="Enter your message"
+                      name="Message"
                       required
                     ></textarea>
                   </div>
