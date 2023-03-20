@@ -58,11 +58,11 @@ class Footer extends React.Component {
           </section>
           <section className="main">
             <h1>
-              <b>First Class Paint LLC</b>
+              <b>First Class Painting LLC</b>
             </h1>
             <img className="logo" src={Logo} />{" "}
             <div className="copyright">
-              <p>© 2023 First Class Paint LLC. All rights reserved.</p>
+              <p>© 2023 First Class Painting LLC. All rights reserved.</p>
             </div>
           </section>
           <section className="footerContact">
@@ -92,7 +92,7 @@ class Footer extends React.Component {
         <section className="mobile">
           <section className="resources">
             <h1>
-              <b>First Class Paint LLC</b>
+              <b>First Class Painting LLC</b>
             </h1>
             <h1>Resources</h1>
             <ul>
@@ -171,7 +171,7 @@ class Footer extends React.Component {
           </section>
           <br />
           <div className="copyright">
-            <p>© 2023 First Class Paint LLC. All rights reserved.</p>
+            <p>© 2023 First Class Painting LLC. All rights reserved.</p>
           </div>
         </section>
       </footer>

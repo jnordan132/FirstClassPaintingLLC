@@ -10,7 +10,7 @@ class Header extends React.Component {
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
-                <h1>First Class Paint LLC</h1>
+                <h1>First Class Painting LLC</h1>
                 <button
                   class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
                   type="button"
