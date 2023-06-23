@@ -1,9 +1,9 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "react-scroll";
 import Logo from "../../assets/images/LogoImg.png";
 import "./index.css";
 
-class Footer extends React.Component {
+export default class Footer extends React.Component {
   render() {
     return (
       <footer className="footer">
@@ -11,43 +11,53 @@ class Footer extends React.Component {
           <section className="resources">
             <h1>Resources</h1>
             <ul>
-              <ul class="footerList">
-                <li class="footerItem">
+              <ul className="footerList">
+                <li className="footerItem">
                   <Link
-                    class="category"
+                    className="category"
                     to="services"
                     offset={-100}
                     duration={500}
                   >
-                    <a href="services" class="nav-link active">
+                    <a href="services" className="nav-link active">
                       Services
                     </a>
                   </Link>
                 </li>
-                <li class="footerItem">
-                  <Link class="category" to="work" offset={-100} duration={500}>
-                    <a href="work" class="nav-link active">
+                <li className="footerItem">
+                  <Link
+                    className="category"
+                    to="work"
+                    offset={-100}
+                    duration={500}
+                  >
+                    <a href="work" className="nav-link active">
                       Our Work
                     </a>
                   </Link>
                 </li>
-                <li class="footerItem">
+                <li className="footerItem">
                   <Link
-                    class="category"
+                    className="category"
                     to="contact"
                     offset={-100}
                     duration={500}
                   >
-                    <a href="contact" class="nav-link active">
+                    <a href="contact" className="nav-link active">
                       Contact Us
                     </a>
                   </Link>
                 </li>
-                <li class="footerItem">
-                  <Link>
+                <li className="footerItem">
+                  <Link
+                    className="blank"
+                    to="footer"
+                    offset={-100}
+                    duration={500}
+                  >
                     <a
                       href="https://g.page/r/CWET2z70IjwHEAI/review"
-                      class="nav-link active"
+                      className="nav-link active"
                     >
                       Give a review
                     </a>
@@ -68,18 +78,28 @@ class Footer extends React.Component {
           <section className="footerContact">
             <h1>Contact</h1>
             <ul>
-              <li class="footerItem">
-                <Link>
-                  <a href="tel:9107463360" class="nav-link active">
+              <li className="footerItem">
+                <Link
+                  className="blank"
+                  to="footer"
+                  offset={-100}
+                  duration={500}
+                >
+                  <a href="tel:9107463360" className="nav-link active">
                     +1 (910) 746-3360
                   </a>
                 </Link>
               </li>
-              <li class="footerItem">
-                <Link>
+              <li className="footerItem">
+                <Link
+                  className="blank"
+                  to="footer"
+                  offset={-100}
+                  duration={500}
+                >
                   <a
                     href="mailto:andrewsa@firstclasspaintingllc.org"
-                    class="nav-link active"
+                    className="nav-link active"
                   >
                     andrewsa@firstclasspaintingllc.org
                   </a>
@@ -96,48 +116,53 @@ class Footer extends React.Component {
             </h1>
             <h1>Resources</h1>
             <ul>
-              <ul class="footerList">
-                <li class="footerItem">
+              <ul className="footerList">
+                <li className="footerItem">
                   <Link
-                    class="category"
+                    className="category"
                     to="services"
                     offset={-100}
                     duration={500}
                   >
-                    <a href="services" class="nav-link active">
+                    <a href="services" className="nav-link active">
                       Services
                     </a>
                   </Link>
                 </li>
-                <li class="footerItem">
+                <li className="footerItem">
                   <Link
-                    class="category"
+                    className="category"
                     to="experience"
                     offset={-100}
                     duration={500}
                   >
-                    <a href="experience" class="nav-link active">
+                    <a href="experience" className="nav-link active">
                       Our Work
                     </a>
                   </Link>
                 </li>
-                <li class="footerItem">
+                <li className="footerItem">
                   <Link
-                    class="category"
+                    className="category"
                     to="contact"
                     offset={-100}
                     duration={500}
                   >
-                    <a href="contact" class="nav-link active">
+                    <a href="contact" className="nav-link active">
                       Contact Us
                     </a>
                   </Link>
                 </li>
-                <li class="footerItem">
-                  <Link>
+                <li className="footerItem">
+                  <Link
+                    className="blank"
+                    to="footer"
+                    offset={-100}
+                    duration={500}
+                  >
                     <a
                       href="https://g.page/r/CWET2z70IjwHEAI/review"
-                      class="nav-link active"
+                      className="nav-link active"
                     >
                       Give a review
                     </a>
@@ -150,18 +175,28 @@ class Footer extends React.Component {
           <section>
             <h1>Contact</h1>
             <ul>
-              <li class="footerItem">
-                <Link>
-                  <a href="tel:9107463360" class="nav-link active">
+              <li className="footerItem">
+                <Link
+                  className="blank"
+                  to="footer"
+                  offset={-100}
+                  duration={500}
+                >
+                  <a href="tel:9107463360" className="nav-link active">
                     +1 (910) 746-3360
                   </a>
                 </Link>
               </li>
-              <li class="footerItem">
-                <Link>
+              <li className="footerItem">
+                <Link
+                  className="blank"
+                  to="footer"
+                  offset={-100}
+                  duration={500}
+                >
                   <a
                     href="mailto:andrewsa@firstclasspaintingllc.org"
-                    class="nav-link active"
+                    className="nav-link active"
                   >
                     andrewsa@firstclasspaintingllc.org
                   </a>
@@ -178,5 +213,3 @@ class Footer extends React.Component {
     );
   }
 }
-
-export default Footer;

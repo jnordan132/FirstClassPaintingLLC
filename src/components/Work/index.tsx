@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import * as React from "react";
 import "./index.css";
 
 import beforeSide from "../../assets/images/BeforeSide.jpg";
@@ -10,7 +10,7 @@ import extHouseBack from "../../assets/images/ExtResBack.jpg";
 import pergola from "../../assets/images/Pergola.jpg";
 import deck from "../../assets/images/Deck.jpg";
 
-class Work extends React.Component {
+export default class Work extends React.Component {
   render() {
     return (
       <section className="work">
@@ -33,5 +33,3 @@ class Work extends React.Component {
     );
   }
 }
-
-export default Work;

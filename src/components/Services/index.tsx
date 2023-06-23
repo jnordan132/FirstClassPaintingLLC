@@ -1,8 +1,7 @@
-import React from "react";
+import * as React from "react";
 import "./index.css";
-import insured from "../../assets/images/insured.jpg";
 
-class Services extends React.Component {
+export default class Services extends React.Component {
   render() {
     return (
       <section className="services">
@@ -65,5 +64,3 @@ class Services extends React.Component {
     );
   }
 }
-
-export default Services;
