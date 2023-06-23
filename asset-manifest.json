@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3f9e528d.css",
-    "main.js": "/static/js/main.ad01da26.js",
+    "main.js": "/static/js/main.6fcb64b9.js",
     "static/js/787.2c2cbe46.chunk.js": "/static/js/787.2c2cbe46.chunk.js",
     "static/media/ExteriorRes.jpg": "/static/media/ExteriorRes.a08b67e41dfebac47369.jpg",
     "static/media/Pergola.jpg": "/static/media/Pergola.6e837ee65be819d1654c.jpg",
@@ -10,16 +10,15 @@
     "static/media/AfterSink.jpg": "/static/media/AfterSink.0cc14f932092a0827863.jpg",
     "static/media/BeforeSide.jpg": "/static/media/BeforeSide.37512f28ac2307326f92.jpg",
     "static/media/ExtResBack.jpg": "/static/media/ExtResBack.2be26b3834d9cff33337.jpg",
-    "static/media/insured.jpg": "/static/media/insured.1bbc43b3a39ef08e0fed.jpg",
     "static/media/Deck.jpg": "/static/media/Deck.0dd3c7db877419fe1616.jpg",
     "static/media/LogoImg.png": "/static/media/LogoImg.6e34cf9ba190f15e53ab.png",
     "index.html": "/index.html",
     "main.3f9e528d.css.map": "/static/css/main.3f9e528d.css.map",
-    "main.ad01da26.js.map": "/static/js/main.ad01da26.js.map",
+    "main.6fcb64b9.js.map": "/static/js/main.6fcb64b9.js.map",
     "787.2c2cbe46.chunk.js.map": "/static/js/787.2c2cbe46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3f9e528d.css",
-    "static/js/main.ad01da26.js"
+    "static/js/main.6fcb64b9.js"
   ]
 }
