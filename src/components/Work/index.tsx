@@ -23,7 +23,7 @@ export default class Work extends React.Component {
     return (
       <section className="work">
         <h1>Some of Our Work!</h1>
-        <div className="gallery">
+        <div className="gallery" id="desktop">
           <div className="group">
             <img src={beforeSide} alt="before kitchen cabinets"></img>
             <img src={afterSide} alt="after kitchen cabinets"></img>
@@ -42,11 +42,36 @@ export default class Work extends React.Component {
             <img src={pergola} alt="pergola"></img>
             <img src={deck} alt="freshly stained deck"></img>
           </div>
-
           <div className="group">
             <img src={ant5} alt="before kitchen cabinets"></img>
             <img src={ant6} alt="after kitchen cabinets"></img>
             <img src={ant7} alt="before kitchen sink"></img>
+            <img src={ant3} alt="after kitchen sink"></img>
+          </div>
+        </div>
+        <div className="gallery" id="mobile">
+          <div className="group">
+            <img src={beforeSide} alt="before kitchen cabinets"></img>
+            <img src={ant1} alt="before kitchen cabinets"></img>
+            <img src={beforeSink} alt="before kitchen sink"></img>
+            <img src={ant8} alt="before kitchen sink"></img>
+          </div>
+          <div className="group">
+            <img src={afterSide} alt="after kitchen cabinets"></img>
+            <img src={ant2} alt="after kitchen cabinets"></img>
+            <img src={afterSink} alt="after kitchen sink"></img>
+            <img src={ant4} alt="after kitchen sink"></img>
+          </div>
+          <div className="group">
+            <img src={extHouse} alt="Exterior of house painted"></img>
+            <img src={ant5} alt="before kitchen cabinets"></img>
+            <img src={pergola} alt="pergola"></img>
+            <img src={ant7} alt="before kitchen sink"></img>
+          </div>
+          <div className="group">
+            <img src={extHouseBack} alt="Exterior of backyard"></img>
+            <img src={ant6} alt="after kitchen cabinets"></img>
+            <img src={deck} alt="freshly stained deck"></img>
             <img src={ant3} alt="after kitchen sink"></img>
           </div>
         </div>

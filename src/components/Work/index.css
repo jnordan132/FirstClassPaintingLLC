@@ -24,6 +24,10 @@
   transition: all 0.2s ease;
 }
 
+#mobile {
+  display: none;
+}
+
 @media (max-width: 1110px) {
   .work img {
     width: 20%;
@@ -32,6 +36,13 @@
 }
 
 @media (max-width: 650px) {
+  #desktop {
+    display: none;
+  }
+  #mobile {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
   .group img {
     width: 85%;
     margin-left: auto;
