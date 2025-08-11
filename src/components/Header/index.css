@@ -10,10 +10,11 @@
   background: white;
   color: rgb(189, 55, 46);
   z-index: 1;
+  padding: 20px;
 }
 
 .navbar {
-  font-size: 23px;
+  font-size: 31px;
   margin-left: 1em;
   margin-right: 1em;
 }
@@ -24,7 +25,7 @@
   width: 100%;
 }
 
-a {
+.navbar-nav a {
   text-decoration: none;
 }
 
@@ -37,18 +38,20 @@ ul {
 }
 
 .nav-item a {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .show > .nav-link {
   color: rgb(189, 55, 46);
   text-align: center;
+  cursor: pointer !important
 }
 
 .navbar-light:hover .navbar-nav:hover .nav-link.active:hover,
 .navbar-light:hover .navbar-nav:hover .show:hover > .nav-link:hover {
   transform: scale(1.05);
+  cursor: pointer !important;
 }
 
 .nav-link .active {

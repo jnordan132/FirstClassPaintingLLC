@@ -168,6 +168,7 @@ ul li:before {
   margin-top: var(--s-1);
   font-weight: 400;
   color: #706d7e;
+  font-size: 18px !important;
 }
 .servicesItem:hover {
   background-color: var(--color-brand-accent);

@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Link } from "react-scroll";
+import Logo from "../../assets/images/LogoImgMain.png";
 import "./index.css";
 
 export default class Header extends React.Component {
@@ -10,7 +11,8 @@ export default class Header extends React.Component {
           <div className="container-fluid">
             <nav className="navbar navbar-expand-lg navbar-light">
               <div className="container-fluid">
-                <h1>First Class Painting LLC</h1>
+                {/* <h1>First Class Painting LLC</h1>÷ */}
+                <img src={Logo} style={{width:"350px"}}></img>
                 <button
                   className="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
                   type="button"

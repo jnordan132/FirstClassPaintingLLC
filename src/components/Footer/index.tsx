@@ -183,7 +183,7 @@ export default class Footer extends React.Component {
                   duration={500}
                 >
                   <a href="tel:9107463360" className="nav-link active">
-                    +1 (910) 746-3360
+                    (910) 746-3360
                   </a>
                 </Link>
               </li>
@@ -206,7 +206,7 @@ export default class Footer extends React.Component {
           </section>
           <br />
           <div className="copyright">
-            <p>© 2023 First Class Painting LLC. All rights reserved.</p>
+            <p>© 2025 First Class Painting LLC. All rights reserved.</p>
           </div>
         </section>
       </footer>
