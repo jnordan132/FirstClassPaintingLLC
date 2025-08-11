@@ -5,13 +5,13 @@ export default class Services extends React.Component {
   render() {
     return (
       <section className="services">
-        <h2 className="servicesTitle">
-          <span>Services</span>
-        </h2>
+        <h1 className="servicesTitle">
+          <span>Our Services</span>
+        </h1>
         <br />
         <ul className="servicesList">
           <li className="servicesItem">
-            <h3>Residential</h3>
+            <h2>Residential</h2>
             <p>
               Do you or someone you know want to tackle a project with some
               help? We offer a variety of residential services, including but
@@ -20,7 +20,7 @@ export default class Services extends React.Component {
             </p>
           </li>
           <li className="servicesItem">
-            <h3>Commercial</h3>
+            <h2>Commercial</h2>
             <p>
               Do you own or operate a business and want to renovate your work
               environment? We offer a variety of commercial services, including
@@ -29,7 +29,7 @@ export default class Services extends React.Component {
             </p>
           </li>
           <li className="servicesItem whyUs">
-            <h3>Why Hire Us?</h3>
+            <h2>Why Hire Us?</h2>
             <ul>
               <p>
                 <li>Fully Licensed & Insured</li>
@@ -50,7 +50,7 @@ export default class Services extends React.Component {
             </ul>
           </li>
           <li className="servicesItem">
-            <h3>Ask Us!</h3>
+            <h2>Reach Out To Us!</h2>
             <p>
               We love taking on new projects, big or small. If you have a
               project in mind and need help, ask us! We would love to hear about
