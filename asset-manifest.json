@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.09bf85b6.css",
-    "main.js": "/static/js/main.67315bda.js",
+    "main.css": "/static/css/main.32626a8a.css",
+    "main.js": "/static/js/main.3248d618.js",
     "static/js/787.2c2cbe46.chunk.js": "/static/js/787.2c2cbe46.chunk.js",
     "static/media/ExteriorRes.jpg": "/static/media/ExteriorRes.a08b67e41dfebac47369.jpg",
     "static/media/Pergola.jpg": "/static/media/Pergola.6e837ee65be819d1654c.jpg",
@@ -22,12 +22,12 @@
     "static/media/LogoImg.png": "/static/media/LogoImg.6e34cf9ba190f15e53ab.png",
     "static/media/LogoImgMain.png": "/static/media/LogoImgMain.742daf9b77b26af753ef.png",
     "index.html": "/index.html",
-    "main.09bf85b6.css.map": "/static/css/main.09bf85b6.css.map",
-    "main.67315bda.js.map": "/static/js/main.67315bda.js.map",
+    "main.32626a8a.css.map": "/static/css/main.32626a8a.css.map",
+    "main.3248d618.js.map": "/static/js/main.3248d618.js.map",
     "787.2c2cbe46.chunk.js.map": "/static/js/787.2c2cbe46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09bf85b6.css",
-    "static/js/main.67315bda.js"
+    "static/css/main.32626a8a.css",
+    "static/js/main.3248d618.js"
   ]
 }
