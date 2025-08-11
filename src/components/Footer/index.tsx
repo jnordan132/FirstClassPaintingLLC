@@ -72,7 +72,7 @@ export default class Footer extends React.Component {
             </h1>
             <img className="logo" src={Logo} />{" "}
             <div className="copyright">
-              <p>© 2023 First Class Painting LLC. All rights reserved.</p>
+              <p>© 2025 First Class Painting LLC. All rights reserved.</p>
             </div>
           </section>
           <section className="footerContact">
