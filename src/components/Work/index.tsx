@@ -22,7 +22,7 @@ export default class Work extends React.Component {
   render() {
     return (
       <section className="work">
-        <h1>Some of Our Work!</h1>
+        <h2>Some of Our Work!</h2>
         <div className="gallery" id="desktop">
           <div className="group">
             <img src={beforeSide} alt="before kitchen cabinets"></img>
