@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.32626a8a.css",
-    "main.js": "/static/js/main.3248d618.js",
+    "main.css": "/static/css/main.2e17062e.css",
+    "main.js": "/static/js/main.921e4044.js",
     "static/js/787.2c2cbe46.chunk.js": "/static/js/787.2c2cbe46.chunk.js",
     "static/media/ExteriorRes.jpg": "/static/media/ExteriorRes.a08b67e41dfebac47369.jpg",
     "static/media/Pergola.jpg": "/static/media/Pergola.6e837ee65be819d1654c.jpg",
@@ -20,14 +20,14 @@
     "static/media/ant6.webp": "/static/media/ant6.edf9125d57102dc7743c.webp",
     "static/media/Deck.jpg": "/static/media/Deck.0dd3c7db877419fe1616.jpg",
     "static/media/LogoImg.png": "/static/media/LogoImg.6e34cf9ba190f15e53ab.png",
-    "static/media/LogoImgMain.png": "/static/media/LogoImgMain.742daf9b77b26af753ef.png",
+    "static/media/fcpLogo.png": "/static/media/fcpLogo.dff697109e739ffc7bdd.png",
     "index.html": "/index.html",
-    "main.32626a8a.css.map": "/static/css/main.32626a8a.css.map",
-    "main.3248d618.js.map": "/static/js/main.3248d618.js.map",
+    "main.2e17062e.css.map": "/static/css/main.2e17062e.css.map",
+    "main.921e4044.js.map": "/static/js/main.921e4044.js.map",
     "787.2c2cbe46.chunk.js.map": "/static/js/787.2c2cbe46.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32626a8a.css",
-    "static/js/main.3248d618.js"
+    "static/css/main.2e17062e.css",
+    "static/js/main.921e4044.js"
   ]
 }
