@@ -98,10 +98,10 @@ export default class Footer extends React.Component {
                   duration={500}
                 >
                   <a
-                    href="mailto:andrewsa@firstclasspaintingllc.org"
+                    href="mailto:lovethewave.aa@gmail.com"
                     className="nav-link active"
                   >
-                    andrewsa@firstclasspaintingllc.org
+                    lovethewave.aa@gmail.com
                   </a>
                 </Link>
               </li>
@@ -195,10 +195,10 @@ export default class Footer extends React.Component {
                   duration={500}
                 >
                   <a
-                    href="mailto:andrewsa@firstclasspaintingllc.org"
+                    href="mailto:lovethewave.aa@gmail.com"
                     className="nav-link active"
                   >
-                    andrewsa@firstclasspaintingllc.org
+                    lovethewave.aa@gmail.com
                   </a>
                 </Link>
               </li>
@@ -206,7 +206,7 @@ export default class Footer extends React.Component {
           </section>
           <br />
           <div className="copyright">
-            <p>© 2025 First Class Painting LLC. All rights reserved.</p>
+            <p>© 2026 First Class Painting LLC. All rights reserved.</p>
           </div>
         </section>
       </footer>
